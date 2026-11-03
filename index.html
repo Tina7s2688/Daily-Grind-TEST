@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-Hant" translate="no">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#123d32"><meta name="description" content="Daily Grind — Starbucks Business Analysis Agent. Bean there. Read that."><title>Daily Grind — Bean there. Read that.</title><link rel="stylesheet" href="styles.css"><script src="data-offline.js" defer></script><script src="app.js" defer></script></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="sidebar">
+ <a class="brand" href="#overview" aria-label="Daily Grind home"><span class="brand-symbol">d<span>•</span></span><span>DAILY GRIND<small>STARBUCKS BUSINESS ANALYSIS AGENT</small></span></a>
+ <div class="workspace-label" data-i="workspace"></div><nav id="navigation" aria-label="Main navigation"></nav>
+ <div class="sidebar-bottom"><div class="scope-label" data-i="researchScope"></div><p data-i="scopeShort"></p><span class="scope-tag">G1 · PRD v0.2</span><div class="side-note" data-i="unofficial"></div></div>
+</aside>
+<div class="shell">
+ <header class="topbar"><div class="breadcrumb"><span>STARBUCKS</span><span class="slash">/</span><span id="currentLabel"></span></div><div class="tools"><span class="prototype-tag" data-i="prototype"></span><button id="language" class="tool" aria-label="Switch language">EN</button><button id="theme" class="tool" aria-label="Switch theme">◐</button><button id="read" class="tool voice"><span aria-hidden="true">▷</span> <span data-i="read"></span></button></div></header>
+ <div id="audioBar" class="audio-bar" hidden><span id="audioStatus"></span><button id="pauseAudio" data-i="pause"></button><label><span data-i="speed"></span><select id="audioRate"><option value="0.8">0.8×</option><option value="1" selected>1×</option><option value="1.2">1.2×</option><option value="1.5">1.5×</option></select></label><button id="stopAudio" data-i="stop"></button></div>
+ <main id="main" tabindex="-1"></main>
+ <footer><span>G1 · DAILY GRIND</span><span data-i="footer"></span></footer>
+</div>
+<dialog id="detail"><div class="dialog-top"><span class="eyebrow" data-i="researchNote"></span><button id="closeDetail" class="tool" aria-label="Close">×</button></div><div id="detailBody"></div></dialog>
+<div id="toast" role="status" hidden></div>
+</body></html>
